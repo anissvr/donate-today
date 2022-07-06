@@ -1,3 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hiro-section {
+    background-image: url(img/donation13.jpg);
+    background-repeat: no-repeat;
+    width: 98.7vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+
+
+
+}
+
+.heading-area {
+    width: 70%;
+
+    margin: 0 auto;
+}
+
+.left-area,
+.right-are {
+    width: 10%;
+}
+
+
 h1 {
-    color: red;
+    padding-top: 5em;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#hiro-p {
+    color: rgb(254, 254, 254);
+    font-size: 19px;
+    margin-bottom: 30px;
+
+}
+
+.donate-button {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 13px 40px;
+    background-color: #ff6f51;
+    color: white;
+    border-radius: 6px;
 }
